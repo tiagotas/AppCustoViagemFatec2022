@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCustoViagemFatec2022.App">
+    
+    <Application.Resources>
+
+        <Style TargetType="Frame">
+            <Setter Property="CornerRadius" Value="10" />
+        </Style>
+
+        <Style TargetType="Entry">
+            <Setter Property="HorizontalOptions" 
+                    Value="FillAndExpand" />
+        </Style>
+
+    </Application.Resources>
+</Application>
