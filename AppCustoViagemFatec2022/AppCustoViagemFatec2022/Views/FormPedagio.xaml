@@ -61,8 +61,8 @@
 
             <StackLayout Orientation="Horizontal"       
                          HorizontalOptions="Center">
-                <Button Text="Calcular" />
-                <Button Text="Limpar" />
+                <Button Text="Calcular" Clicked="Button_Clicked_Calcular" />
+                <Button Text="Limpar" Clicked="Button_Clicked_Limpar" />
             </StackLayout>
 
         </StackLayout>
